@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+  <title>Shree Bakes</title>
+</head>
+<body>
+
+  <!-- <section> -->
+
+  <nav>
+  
+        <div class ="logo" style="background:white">
+          <img src="image/logo.jpg" class="brand-logo">
+        </div>
+
+        <ul>
+          <li><a = href="index.html">Home</a></li>
+          <li><a = href="about.html">About</a></li>
+          <li><a = href="shop.html">Shop</a></li>
+          <li><a = href="gallery.html">Gallery</a></li>
+          <li><a = href="order.html">Bespoke Cake Order</a></li>
+          <!-- <li><a = href="#H-order">How To Order</a></li> -->
+        </ul>
+
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+
+        </div>
+
+    
+  </nav>
+
+  <!-- <div class="content-item">  
+      <div class="men_txt">
+        <h2>Get Fresh<span>CAKE</span><br>In a Easy way.</h2>
+
+        <div>
+          <button type="button">Gallery</button>
+          <button type="button">Order Now</button>
+        </div>
+        
+      </div>
+  </div> -->
+  <div class="slide">
+
+  </div>
+
+
+  <!-- home 2 -->
+  <section>
+
+    <div class="main">
+      
+      <div class="text">
+        <h1>Your local artisan bakery,<br>creating memorable treats<br>   in Ktown.</h1>
+        <p>At Shree Bakes, we work with a carefully chosen, 
+         high quality ingredients to create hand-crafted locally-made cakes in Ktown.
+          <br>Our cakes are delicious, beautiful and loved by
+           <br>locals and visitors alike.</p>
+
+
+                    <!-- how to order popup -->
+          <div class="popup" id="popup1">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="close-btn">&times;</div> <!-- Removed onclick attribute -->
+             
+              <div class="abc">
+                <h2>How to Order a Product!!!</h2>
+                <ol>
+                    <li>Search or browse, locate item, also be spoke order
+                       (must fill the form for customized products.)</li>
+                    <li>Click "Add to Cart".</li>
+                    <li>Proceed to Checkout.</li>
+                    <li>Review Order.</li>
+                    <li>Enter Shipping Info.</li>
+                    <li>Choose Payment Method.</li>
+                    <li>Place Order.</li>
+                    <li>Inspect upon delivery.</li>
+                    <li>Share feedback.</li>
+                </ol>
+            </div>
+            
+            </div>
+          </div>
+          <button onclick="togglePopup()">How to Order </button>
+
+      </div>
+
+      <div class="main_img">
+        <img src="image/icing3.jpg">
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- home 3 wedding -->
+
+<!-- Classic buttercream-frosted cake adorned with fresh, 
+  non-edible roses -->
+     
+<section>
+  <div class="wedding-collection">
+    <h2>Wedding Collection</h2>
+    <p>Check out our traditional Wedding products. 
+      Handmade with the finest ingredients,bursting with flavor, and adorned with beauty,<br>they are the perfect gift or addition to your Wedding table. 
+      Limited numbers so make sure to <br>pre-order!</p>
+      <br><a href="order.html" id="order-now">Order Now</a>
+      
+    <div class="cake-container">
+      <div class="cake-item">
+        <img src="image/w1.jpg" alt="Cake 1" class="cake-image">
+        <div class="cake-description">
+          <h6> <span class="love-icon">❤️</span>Beautiful Wedding Cake</h6>
+          <p>From 15,000</p>
+          
+        </div>
+      </div>
+      
+      <div class="cake-item">
+        <img src="image/w2.jpg" alt="Cake 2" class="cake-image">
+        <div class="cake-description">
+          <h6><span class="love-icon">❤️</span> Elegant Wedding Cake</h6>
+          <p>From 12,000 NPR</p>
+         
+        </div>
+      </div>
+      
+      <div class="cake-item">
+        <img src="image/w4.jpg" alt="Cake 3" class="cake-image">
+        <div class="cake-description">
+          <h6><span class="love-icon">❤️</span> Classic Wedding Cake</h6>
+          <p>From 10,000 NPR</p>
+
+        </div>
+      </div>
+
+      <div class="cake-item">
+        <img src="image/w1.jpg" alt="Cake 1" class="cake-image">
+        <div class="cake-description">
+          <h6><span class="love-icon">❤️</span> Beautiful Wedding Cake</h6>
+          <p>From 15,000 NPR</p>
+
+          
+        </div>
+      </div>
+      
+      <div class="cake-item">
+        <img src="image/w2.jpg" alt="Cake 2" class="cake-image">
+        <div class="cake-description">
+          <h6><span class="love-icon">❤️</span>Elegant Wedding Cake</h6>
+          <p>From 12,000 NPR</p>
+         
+        </div>
+      </div>
+      
+      <div class="cake-item">
+        <img src="image/w4.jpg" alt="Cake 3" class="cake-image">
+        <div class="cake-description">
+          <h6><span class="love-icon">❤️</span> Classic Wedding Cake</h6>
+          <p>From 10,000 NPR</p>
+         
+        </div>
+      </div>
+
+      <a href="gallery.html" id="view-all">View all</a>
+      
+    </div>
+  </div>
+
+</section>
+
+<!-- home 4 -->
+<section>
+  <div class="about-us">
+
+    <div class="about-us-img">
+      <img src="image/about.jpg">
+    </div>
+      
+    <div class=" about-us-text">
+      <h1>We're a little cake obsessed</h1>
+      <p>We have been cake bakers for more than 9 years and
+        the secret for our success is being passionate about baking and
+        making cakes that taste as amazing as they look.
+        We find inspiration in our passion for the beautiful place we live and 
+        use seasonal and organic ingredients whenever possible.A cake is the best way to celebrate life and 
+        we love making them even more special for any occasion.</p>
+        <a href="about.html" id="abt-link">Learn More</a>
+    
+    </div>
+    
+  </div>
+ 
+
+</section>
+
+<!-- home 5 -->
+<section>
+  <div class="im-container">
+
+    <div class="im">
+      <div class="im1">
+        <img src="image/p4.jpg" alt="">
+        <h5>The Best Ingredients</h5>
+        <p>Quality underpins everything we do. Our 
+          cakes are lovingly baked from scratch and contain only the best quality ingredients.</p>
+      </div>
+    </div>
+    
+    <div class="im">
+      <div class="im1">
+        <img src="image/p1.jpg" alt="">
+        <h5>Utterly Delicious</h5>
+        <p>We can assure you we have rigorously tested and perfected
+          our recipes so that your cake tastes as delicious as it looks</p>
+      </div>
+    </div>
+    
+    
+    <div class="im">
+      <div class="im1">
+        <img src="image/p3.jpg" alt="">
+        <h5>Locally Loved</h5>
+        <p>Ktown has been the home of our cake creation for over 20 years.
+           We love it here and our locals love us too.</p>
+      </div>
+  
+    </div>
+  
+  </div>
+</section>
+
+<!-- home 6 -->
+<!-- <section>
+  <div class="slide">
+
+  </div>
+</section> -->
+
+<!-- email -->
+<section>
+  <div class="email">
+
+    <div class="em">
+      <h3>Love cake like we do?</h3>
+      <br><p>Join our email list to be
+         deliciously in the know with all things Shree Bakes!
+      </p>
+    </div>
+   
+    <div class="box">
+      <form action="#">
+        <div class="form-box">
+          <input type="text" name="emailAddress" placeholder="Enter you email.">
+          <button type="submit">Get Best Deals</button>
+        </div>
+    
+      </form>
+    
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+
+<div class="footer">
+  <div class="footer1">
+     <!-- Social Icons -->
+     <div class="social-icons">
+      <h3>Stay Connected</h3>
+      <a href="https://www.facebook.com/p/Cake-Mart-100067473819788/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/everything_handmade8/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <div class="shree-i">
+      <h3>Shree Bakes</h3>
+      <a href="about.html" id="a">About Us</a>
+      <a href="gallery.html" id="a">Gallery</a>
+     
+      <!-- Add the FAQ link/button -->
+    <a href="#" id="faq">FAQ</a>
+
+    <!-- Add the new popup box for FAQ -->
+    <div class="popup" id="faq-popup">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn">&times;</div>
+        <h2>FAQ!!!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          FAQ popup box.</p>
+      </div>
+    </div>
+
+    
+    </div>
+
+    <div class="cont">
+      <h3>Contact Us</h3>
+      <p><i class="fa-solid fa-phone"></span></i>0123456789</p>
+      <p><i class="fa-solid fa-location-dot"></i>kathmandu</p>
+      <p><i class="fa-regular fa-envelope"></i>shree@bake.np</p>
+      <!-- <p>Opening Hours: 7:00 am - 4:00 pm</p>
+      <p>Closed in public holiday </p> -->
+    </div>
+   
+   
+  </div>
+  <div class="copy">
+    <p>&copy; 2023 Shree Bakes. All rights reserved.</p>
+   </div>
+</div>
+
+</footer>
+<script>
+
+  function togglePopup() {
+    document.getElementById("popup1").classList.toggle("active");
+  }
+
+document.querySelector(".close-btn").addEventListener("click", togglePopup);
+
+</script>
+
+<script src="script/script.js"></script>
+
+</body>
+</html>

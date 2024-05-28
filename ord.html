@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="order.css">
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+  <title>Shree Bakes</title>
+</head>
+<body>
+    <div class="order">
+        <form action="#" method="post">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+    
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            
+    
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+    
+            <label for="design">Design Style/Theme</label>
+            <input type="text" id="design" name="design" required>
+    
+            <label for="cakeFlowerTopper">Cake Flower Topper</label>
+            <select id="topper" name="topper">
+                <option value="" disabled selected>Select...</option>
+                <option value="none">None</option>
+                <option value="florist">From florist/or self supplied</option>
+                <option value="shreeSupplied">Arranged and supplied by Shree Bakes</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
